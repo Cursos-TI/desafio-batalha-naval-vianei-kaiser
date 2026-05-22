@@ -25,8 +25,8 @@ int main() {
         }
         printf("\n");
 
-    printf("Número de elementos pares  : %d\n", evenCount);
-    printf("Número de elementos ímpares: %d\n", oddCount);
+    printf("* Número de elementos pares  : %d\n", evenCount);
+    printf("* Número de elementos ímpares: %d\n", oddCount);
  
     return 0;
 }
