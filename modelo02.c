@@ -18,12 +18,13 @@ int main() {
     // Impressão dos resultados
 
     // Impressão da matriz 
+    int i=0,j=0;
     for (int i = 0; i < 3; i++) {      // Loop para imprimir cada linha
         for (int j = 0; j < 3; j++) {  // Loop para imprimir cada coluna
             printf("%3d ", matriz[i][j]); // %3d faz justificar a impressao dos numeros
         }
         printf("\n");
-        
+
     printf("Número de elementos pares: %d\n", evenCount);
     printf("Número de elementos ímpares: %d\n", oddCount);
  
